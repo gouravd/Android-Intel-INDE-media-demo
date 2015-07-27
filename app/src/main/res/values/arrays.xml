@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="attachment_capture_media">
+        <item>@string/attachment_take_picture</item>
+        <item>@string/attachment_take_video</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gif_tag_margin_bottom">4dp</dimen>
+    <dimen name="gif_tag_margin_right">4dp</dimen>
+    <dimen name="grid_padding">2dp</dimen>
+    <dimen name="toast_padding">62dp</dimen>
+</resources>

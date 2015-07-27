@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <com.johnlotito.intelvideotest.widget.SquareImageView
+        android:id="@+id/image_attachment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/ic_gallery_camera"
+        android:gravity="center"
+        android:textColor="@color/white70"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+
+    <com.johnlotito.intelvideotest.widget.SquareImageView
+        android:id="@+id/view_ripple"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="?attr/selectableItemBackgroundBorderless"/>
+
+    <ImageView
+        android:id="@+id/gif_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/image_attachment"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/gif_tag_margin_bottom"
+        android:layout_marginStart="@dimen/gif_tag_margin_right"
+        android:src="@drawable/ic_gif_label"
+        android:visibility="gone"/>
+
+    <com.johnlotito.intelvideotest.widget.SquareImageView
+        android:id="@+id/video_attachment_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:gravity="center"
+        android:scaleType="center"
+        android:src="@drawable/ic_play_btn"
+        android:background="@color/black20"
+        android:visibility="gone"/>
+
+</RelativeLayout>
